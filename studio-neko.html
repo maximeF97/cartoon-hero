@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Neko</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f1fc;
+            color: #6a3e91;
+        }
+
+        header {
+            background-color: #6a3e91;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+            border-bottom: 4px solid #9b59b6;
+        }
+
+        nav {
+            background-color: #9b59b6;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            color: #f1c6ff;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: #ffffff;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 20px;
+            width: 200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .product h3 {
+            color: #6a3e91;
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+
+        .product p {
+            font-size: 1.1em;
+            color: #9b59b6;
+        }
+
+        .product button {
+            background-color: #6a3e91;
+            color: white;
+            border: none;
+            padding: 10px;
+            font-size: 1.1em;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .product button:hover {
+            background-color: #9b59b6;
+        }
+
+        footer {
+            background-color: #6a3e91;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 1.1em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Cat Icon */
+        .cat-icon {
+            font-size: 4em;
+            color: #9b59b6;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        Studio Neko
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div id="home">
+        <div class="container">
+            <!-- Stickers -->
+            <div class="product">
+                <div class="cat-icon">😻</div>
+                <h3>Cat Stickers</h3>
+                <p>Adorable stickers to decorate your space!</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <!-- Bags -->
+            <div class="product">
+                <div class="cat-icon">🐱</div>
+                <h3>Cat Tote Bag</h3>
+                <p>Carry your essentials with this cute cat bag!</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <!-- Illustrations -->
+            <div class="product">
+                <div class="cat-icon">😺</div>
+                <h3>Cat Illustration Print</h3>
+                <p>Hand-drawn cat artwork to brighten your room!</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Studio Neko. All rights reserved.
+    </footer>
+
+</body>
+</html>
