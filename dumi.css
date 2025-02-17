@@ -1,0 +1,25 @@
+body{
+	margin: 0;
+	font-family: helvetica, arial, ;
+}
+
+header{
+	background: skyblue;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+h1,h2{
+	
+}
+
+header h1{
+	color: white;
+	
+}
+
+header img{
+	border-radius: 150px;
+	width: 300px;
+	border: 20px solid black;
+}
